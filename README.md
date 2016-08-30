@@ -8,11 +8,6 @@ An eslint plugin to warn on usage of `console`.
 - [Install](#install)
 - [Configuration](#configuration)
 - [Rule Details](#rule-details)
-- [When Not To Use It](#when-not-to-use-it)
-- [Further Reading](#further-reading)
-- [Tests](#tests)
-- [Developing](#developing)
-  - [Requirements](#requirements)
 - [License](#license)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
