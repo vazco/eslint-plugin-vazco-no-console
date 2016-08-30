@@ -24,8 +24,6 @@ no-console - This rule warns when it sees `console`. You can specify variants, l
 
 ## Configuration
 
-### no-console
-
 Add `plugins` section and specify eslint-plugin-no-console-log as a plugin.
 
 ```json
@@ -35,13 +33,14 @@ Add `plugins` section and specify eslint-plugin-no-console-log as a plugin.
   ]
 }
 ```
-
 Then, enable the rule.
+
+### no-console
 
 ```json
 {
   "rules": {
-    "vazco/no-console": [1, {}]
+    "vazco/no-console": [1, {"disallow": ["info", "time", "timeEnd"]}]
   }
 }
 ```
