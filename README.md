@@ -1,13 +1,13 @@
-# eslint-plugin-vazco-no-console
+# eslint-plugin-vazco
 
 
-An eslint plugin to warn on usage of `console`.
+An eslint plugins.
 
 **Table of Contents**
 
 - [Install](#install)
+- [Rules](#rules)
 - [Configuration](#configuration)
-- [Rule Details](#rule-details)
 - [License](#license)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
@@ -15,10 +15,16 @@ An eslint plugin to warn on usage of `console`.
 ## Install
 
 ```sh
-npm i -S eslint-plugin-vazco-no-console
+npm i -S eslint-plugin-vazco
 ```
 
+## Rules
+
+no-console - This rule warns when it sees `console`. You can specify variants, like `console.warn` are not allowed.
+
 ## Configuration
+
+### no-console
 
 Add `plugins` section and specify eslint-plugin-no-console-log as a plugin.
 
@@ -40,10 +46,6 @@ Then, enable the rule.
 }
 ```
 
-
-## Rule Details
-
-This rule warns when it sees `console`. You can specify variants, like `console.warn` are not allowed.
 
 
 ## Licence
