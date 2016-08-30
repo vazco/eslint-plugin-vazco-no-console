@@ -31,7 +31,7 @@ Add `plugins` section and specify eslint-plugin-no-console-log as a plugin.
 ```json
 {
   "plugins": [
-    "vazco-no-console"
+    "vazco"
   ]
 }
 ```
@@ -41,7 +41,7 @@ Then, enable the rule.
 ```json
 {
   "rules": {
-    "vazco-no-console/no-console": [1, {}]
+    "vazco/no-console": [1, {}]
   }
 }
 ```
