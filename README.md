@@ -1,7 +1,10 @@
-# eslint-plugin-vazco
+<h1 align="center">
+    <a href="https://github.com/vazco">vazco</a>/ESLint Plugin Vazco
+</h1>
 
+&nbsp;
 
-An eslint plugins.
+An ESLint plugin.
 
 **Table of Contents**
 
@@ -45,8 +48,8 @@ Then, enable the rule.
 }
 ```
 
+## License
 
+<img src="https://vazco.eu/banner.png" align="right">
 
-## Licence
-
-MIT. Copyright (c) [Vazco.eu](http://vazco.eu).
+**Like every package maintained by [Vazco](https://vazco.eu/), ESLint Plugin Vazco is [MIT licensed](https://github.com/vazco/uniforms/blob/master/LICENSE).**
